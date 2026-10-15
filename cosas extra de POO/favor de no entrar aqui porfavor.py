@@ -7,7 +7,8 @@ class pene:
         self.largo = largo
         self.nombre = nombre
 class panochax(pene):
-    super().__init__(nombre)  
+    def __init__(nombre):
+        super().__init__(nombre)  
     def show_info(self):
         print(self.largo,self.negrura,self.pelos,self.nombre)
 
